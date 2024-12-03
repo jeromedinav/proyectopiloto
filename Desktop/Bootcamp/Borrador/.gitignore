@@ -1,0 +1,2 @@
+.Trash/
+*.DS_Store # Ignorar archivos de sistema innecesarios en macOS
