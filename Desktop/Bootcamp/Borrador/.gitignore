@@ -1,3 +1,30 @@
+
+# Archivos y directorios del sistema
+.DS_Store
+.Trash/
+Library/
+.CFUserTextEncoding
+.bashrc
+.bashrc.save
+.bash_profile
+.config/
+.lesshst
+.ssh/
+.vscode/
+.zsh_history
+.zsh_sessions/
+.zshrc
+
+# Otros directorios y archivos no relacionados con el proyecto
+/Applications/
+/Desktop/
+/Documents/
+/Downloads/
+/Library/
+/Movies/
+/Music/
+/Pictures/
+/Public/
 # Archivos y directorios del sistema
 .DS_Store
 .Trash/
