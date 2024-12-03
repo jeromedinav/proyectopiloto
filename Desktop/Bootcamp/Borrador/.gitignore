@@ -1,2 +1,7 @@
 .Trash/
 *.DS_Store # Ignorar archivos de sistema innecesarios en macOS
+Library/
+.Trash/
+*.DS_Store
+.vscode/
+*.png
