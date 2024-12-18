@@ -1,0 +1,60 @@
+body {
+  background-image: url(https://img.freepik.com/premium-vector/colorful-mosaic-background_608527-926.jpg);
+}
+
+p {
+  width: 20rem;
+  border: 1px solid;
+  height: 20rem;
+  background: aqua;
+  background-color: aqua;
+}
+
+.img {
+  /* Si utilizo la propiedad abreviada background, sobreescribo lo que haya hecho */
+  background: url(https://cdn-icons-png.flaticon.com/256/188/188987.png);
+
+  /* Si le pongo imagen y color, la imagen siempre va por encima */
+  background-color: aqua;
+}
+
+.no-repeat {
+  background-repeat: no-repeat;
+}
+
+.centrado {
+  background-position: center center;
+}
+
+.grande {
+  background-image: url(https://images.unsplash.com/photo-1719937050601-969f4f25d060?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8);
+}
+
+.encogido {
+  background-size: 5rem 10rem;
+}
+
+.cover {
+  background-size: cover;
+}
+
+.contain {
+  background-size: contain;
+}
+
+a {
+  /*  background-color: red; */
+  width: 3rem;
+  height: 2rem;
+
+  display: inline-block;
+  font-size: 0;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#github {
+  background-image: url(https://img.icons8.com/?size=100&id=62856&format=png&color=000000);
+}

@@ -1,0 +1,64 @@
+div {
+  padding: 2rem;
+}
+
+p {
+  border: 1px solid black;
+  width: 7rem;
+  height: 7rem;
+
+  padding: 1rem;
+
+  color: white;
+
+  transition: transform 500ms;
+}
+
+#translate p {
+  background-color: blue;
+
+  /*   transition-property: left, top;
+  transition-duration: 1s;
+  position: relative;
+  left: 0;
+  top: 0; */
+}
+
+#translate:hover p {
+  /*   left: 15rem;
+  top: -5rem; */
+
+  transform: translate(15rem, -5rem);
+
+  /* Lo mismo: */
+  transform: translateX(15rem) translateY(-5rem);
+}
+
+#rotate p {
+  background-color: green;
+  transform-origin: bottom right;
+}
+
+#rotate:hover p {
+  transform: rotate(3600deg);
+}
+
+#scale p {
+  background-color: red;
+
+  transform-origin: bottom left;
+}
+
+#scale:hover p {
+  transform: scale(-2, 0.5);
+
+  transform: scaleX(-2) scaleY(0.5);
+}
+
+#mezcla p {
+  background-color: blueviolet;
+}
+
+#mezcla:hover p {
+  transform: translate(10rem, 2rem) rotate(30deg) scale(1.5);
+}

@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px; /* Por defecto 16px */
+}
+
+h1 {
+  margin: 1rem;
+
+  /* Por defecto 2rem */
+  font-size: 2rem;
+}
+
+p {
+  border: 1px solid;
+  margin: 2rem;
+
+  /* Por defecto 1rem */
+  /* font-size: 1.5rem; */
+}
+
+#pixel {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+}
+
+#em {
+  /* Element M */
+  /* 1em = font-size del elemento */
+  /* Por defecto 1rem */
+  height: 7em;
+  width: 7em;
+  padding: 1em;
+}
+
+#rem {
+  /* Root element M */
+  height: 7rem;
+  width: 7rem;
+  padding: 1rem;
+}
+
+/* main {
+  height: 1000px;
+} */
+
+#porcentaje {
+  /* Por defecto en altura no funciona. El padre debe tener una altura claramente definida */
+  /* Respecto a la altura del padre */
+  height: 20%;
+  /* Respecto al ancho del padre */
+  width: 15%;
+  /* Respecto al ancho del padre */
+  padding: 2%;
+}
+
+#vh {
+  height: 15vh;
+  width: 15vh;
+  padding: 2vh;
+}
+
+#vw {
+  height: 25vw;
+  width: 25vw;
+  padding: 2vw;
+}
+
+#vmin {
+  height: 25vmin;
+  width: 25vmin;
+  padding: 2vmin;
+}
+
+#vmax {
+  height: 15vmax;
+  width: 15vmax;
+  padding: 2vmax;
+}

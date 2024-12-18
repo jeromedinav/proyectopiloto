@@ -1,0 +1,59 @@
+html {
+  transition: background-color 1s;
+}
+
+html.dark {
+  background-color: black;
+}
+
+h1 {
+  color: blue;
+
+  transition-property: width, color;
+  transition-duration: 1s, 2s;
+  transition-timing-function: cubic-bezier(0.74, -0.02, 1, 0.44);
+  transition-delay: 1s, 2s;
+
+  width: 11rem;
+  text-align: right;
+
+  border: 1px solid;
+}
+
+h1:hover {
+  color: magenta;
+
+  /* transform: translate(80vw); */
+  width: 100%;
+}
+
+a {
+  color: aqua;
+
+  transition-property: color;
+  transition-duration: 500ms;
+}
+
+a:hover {
+  color: green;
+}
+
+a:focus {
+  color: red;
+}
+
+img {
+  /* No vale porque no hay valores intermedios */
+  /*   transition: visibility 1s;
+
+  visibility: visible; */
+
+  transition: opacity 1s;
+  opacity: 1;
+}
+
+figure:hover img {
+  /* visibility: hidden; */
+
+  opacity: 0;
+}

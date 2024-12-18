@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 2rem;
+}
+
+main {
+  border: 1px solid blue;
+  display: flex;
+  height: 75vh;
+
+  /* Propiedades del contenedor */
+  /* Direccion eje principal */
+  flex-direction: row-reverse;
+
+  /* Si se usa, en que direccion el eje secundario */
+  flex-wrap: wrap;
+
+  /* Distibución por el eje principal */
+  justify-content: flex-end;
+
+  /* Distribución en el eje secundario */
+  align-items: baseline;
+}
+
+main > * {
+  border: 1px solid black;
+  width: 7rem;
+  /*   height: 7rem; */
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+}
+
+p:nth-child(5) {
+  font-size: 1.5rem;
+}

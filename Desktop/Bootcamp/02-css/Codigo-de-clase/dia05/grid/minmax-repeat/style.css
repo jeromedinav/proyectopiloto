@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  color: white;
+  height: 8rem;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  border: 2px solid;
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, 100px);
+  grid-template-rows: repeat(2, 5rem 100px);
+}
+
+p {
+  border: 1px solid blue;
+
+  /* width: 100px; */
+}

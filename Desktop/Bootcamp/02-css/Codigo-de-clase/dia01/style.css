@@ -1,0 +1,46 @@
+@import url(./header.css);
+
+/* Cascade Style Sheet */
+
+/* Esto es un comentario */
+
+/* Selectores de etiqueta */
+
+html {
+  background-color: gray;
+}
+
+body {
+  background-color: lightgray;
+}
+
+h1 {
+  color: blueviolet;
+}
+
+p {
+  color: rgb(0, 133, 133);
+  font-family: sans-serif;
+}
+
+/* Selector de clase */
+.especial {
+  font-style: italic;
+}
+
+.otraClase {
+  font-weight: bold;
+}
+
+/* Selector por id */
+#unico {
+  text-decoration: underline;
+}
+
+/* HEADER */
+
+/* MAIN */
+
+/* FOOTER */
+
+/*cambio*/

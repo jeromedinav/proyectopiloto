@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  color: white;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  background-color: gray;
+}
+
+menu {
+  list-style: none;
+}
+
+menu li {
+  flex-grow: 1;
+}
+
+menu a {
+  border: 1px solid black;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  color: black;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+menu a:hover {
+  background-color: lightgrey;
+}
+
+/* Menu con sticky */
+
+nav#sticky {
+  position: sticky;
+  top: 0;
+
+  z-index: 1;
+}
+#sticky menu {
+  display: flex;
+  height: 2rem;
+  justify-content: space-evenly;
+  max-width: 600px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+/* Menu con desplazamiento */
+#abs {
+  width: 10rem;
+  position: absolute;
+  right: -10rem;
+  top: 0;
+}
+
+#abs a {
+  padding: 1rem;
+}
+
+#abs button {
+  position: absolute;
+  left: -1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: inherit;
+  border: none;
+}
+
+#abs:hover {
+  right: 0;
+}
+
+main {
+  overflow-x: hidden;
+  position: relative;
+
+  padding: 1rem;
+  height: 200vh;
+}
+
+/* Botón volver arriba */
+
+#arriba {
+  background-color: gray;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+
+  height: 2rem;
+  width: 2rem;
+  font-size: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+#arriba::after {
+  content: "⬆️";
+  font-size: 1rem;
+}

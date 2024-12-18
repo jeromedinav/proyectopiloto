@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  color: white;
+  height: 8rem;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  height: 50vh;
+  border: 2px solid;
+
+  display: grid;
+
+  grid-template-columns: 150px 150px 25% 10rem;
+  grid-template-rows: 50px 10rem 25%;
+
+  justify-items: center;
+  align-items: baseline;
+
+  justify-content: space-evenly;
+  align-content: center;
+
+  /* Espacio minimo entre tracks */
+  /* gap: 1rem; */
+  /* row-gap: 2rem;
+  column-gap: 1rem; */
+  gap: 2rem 1rem;
+}
+
+p {
+  border: 1px solid blue;
+}
+
+p:nth-child(6) {
+  font-size: 1.5rem;
+}
+
+p:nth-child(odd) {
+  justify-self: end;
+  align-self: center;
+}
+
+p:nth-child(7) {
+  order: 1;
+}
+
+p:nth-child(5) {
+  order: 2;
+}
+
+p:nth-child(9) {
+  order: -1;
+}

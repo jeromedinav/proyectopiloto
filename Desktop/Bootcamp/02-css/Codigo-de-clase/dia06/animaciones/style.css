@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  width: fit-content;
+
+  transition: color 1s;
+
+  animation: desplazamiento 1s;
+
+  animation-name: desplazamiento;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.35, 0.08, 0.11, 0.89);
+
+  animation-delay: 2s;
+
+  animation-iteration-count: 3, infinite;
+
+  animation-direction: alternate;
+
+  animation-fill-mode: both;
+}
+
+h1:hover {
+  animation-name: desplazamiento, arcoiris;
+
+  animation-delay: 2s, 0s;
+}
+
+h2 {
+  animation: mix 10s;
+  animation-iteration-count: 3;
+  color: blue;
+  transform: translate(5rem);
+  transform: scale(2, 0.5);
+
+  transform-origin: bottom left;
+  width: fit-content;
+}
+
+@keyframes desplazamiento {
+  from {
+    transform: translate(-100%);
+  }
+
+  to {
+    transform: translate(calc(50vw - 50%));
+  }
+}
+
+@keyframes arcoiris {
+  0% {
+    color: red;
+  }
+
+  20% {
+    color: rgb(242, 255, 0);
+  }
+
+  35% {
+    color: rgb(106, 255, 0);
+  }
+
+  50% {
+    color: cyan;
+  }
+
+  65% {
+    color: rgb(17, 0, 255);
+  }
+
+  80% {
+    color: magenta;
+  }
+
+  100% {
+    color: red;
+  }
+}
+
+@keyframes mix {
+  20% {
+    color: magenta;
+  }
+
+  50% {
+    transform: translate(10rem, 5rem) scale(2, 0.5);
+  }
+
+  60% {
+    transform: translate(0, 5rem) scale(2, 0.5);
+  }
+
+  69% {
+    color: magenta;
+  }
+  70% {
+    color: red;
+  }
+}

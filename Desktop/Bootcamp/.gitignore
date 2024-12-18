@@ -1,4 +1,20 @@
-# Ignorar archivos y carpetas no relacionadas con el Bootcamp
+
+# Ignorar archivos de sistema y personales
+.DS_Store
+.Trash/
+*.log
+*.png
+*.jpeg
+*.webloc
+*.docx
+Applications/
+Downloads/
+Documents/
+Library/
+Movies/
+Music/
+Pictures/
+Public/# Ignorar archivos y carpetas no relacionadas con el Bootcamp
 *.docx
 *.log
 *.jpeg

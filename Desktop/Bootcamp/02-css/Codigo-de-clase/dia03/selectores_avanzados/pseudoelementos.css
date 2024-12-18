@@ -1,0 +1,23 @@
+p::first-letter {
+  font-size: 2rem;
+  font-family: fantasy;
+}
+
+p::first-line {
+  font-weight: bold;
+}
+
+::selection {
+  background-color: blueviolet;
+  color: aqua;
+}
+
+li::before {
+  content: "😀";
+}
+
+li::after {
+  content: "!";
+  font-size: 2rem;
+  color: red;
+}

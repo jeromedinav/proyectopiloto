@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,300;0,400;1,700&display=swap");
+
+/* body {
+  background-color: rgb(1, 117, 156);
+}
+ */
+/* No tiene serifa */
+#sans-serif {
+  font-family: sans-serif;
+}
+
+/* Tiene serifa */
+#serif {
+  font-family: serif;
+}
+
+/* Todos los caracteres ocupan lo mismo */
+#mono {
+  font-family: monospace;
+}
+
+#cursive {
+  font-family: cursive;
+}
+
+#fantasy {
+  font-family: fantasy;
+}
+
+#arial {
+  font-family: Arial;
+}
+
+/* Siempre es recomendable poner al final una familia genérica */
+#backup {
+  font-family: "Arial", "Arial Narrow", Helvetica, sans-serif;
+}
+
+.negrita {
+  font-weight: bold;
+}
+
+.italica {
+  font-style: italic;
+}
+
+.roboto {
+  font-family: Roboto, sans-serif;
+}
+
+.finita {
+  font-weight: lighter;
+}
+
+.open {
+  font-family: "Open Sans", sans-serif;
+}
+
+#size {
+  /* Por defeto es 1rem (=16px) */
+  font-size: 20px;
+
+  color: blue;
+}
+
+#mayus {
+  text-transform: uppercase;
+}
+
+#minus {
+  text-transform: lowercase;
+}
+
+#capi {
+  text-transform: capitalize;
+}
+
+#under {
+  text-decoration: underline;
+
+  text-decoration-line: underline;
+  text-decoration-color: red;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 3px;
+}
+
+#over {
+  text-decoration: overline green dotted 4px;
+}
+
+#through {
+  text-decoration: line-through;
+}
+
+#varios {
+  text-decoration: underline overline line-through magenta;
+}
+
+#sombra1 {
+  /* Desplazamiento horizontal, desplazamiento vertical, difusion, color */
+  text-shadow: 5px 3px 3px rgba(0, 0, 0, 0.359);
+}
+
+#sombra2 {
+  /* Los valores negativos van en dirección contraria */
+  text-shadow: -5px -3px 3px rgba(0, 0, 0, 0.359);
+}
+
+#sombra3 {
+  text-shadow: 0 0 7px rgb(203, 255, 255);
+  color: aqua;
+}
+
+#sombra4 {
+  text-shadow: 1px 1px 0 red, -1px -1px 0 red, -1px 1px 0 red, 1px -1px 0 red;
+}
+
+#sombra5 {
+  text-shadow: 2px 2px 3px magenta, 4px 4px 5px rgb(0, 99, 156),
+    -2px -2px 3px orange;
+}
+
+#derecha {
+  text-align: right;
+}
+
+#izquierda {
+  text-align: left;
+}
+
+#medio {
+  text-align: center;
+}
+
+#justificado {
+  text-align: justify;
+}
+
+/* No es lo mismo centrar la caja que el texto dentro de la caja */
+h1 {
+  margin: auto;
+  text-align: center;
+  border: 1px solid;
+  width: 300px;
+}
+
+#palabras-separadas {
+  word-spacing: 20px;
+}
+
+#palabras-juntas {
+  word-spacing: -10px;
+}
+
+#letras-separadas {
+  letter-spacing: 3px;
+}
+
+#letras-juntas {
+  letter-spacing: -0.1em;
+}
+
+#alto {
+  line-height: 2;
+}
+
+#bajo {
+  line-height: 0.5;
+}

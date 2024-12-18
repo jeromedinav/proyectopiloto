@@ -1,0 +1,43 @@
+/* Varios selectores para un bloque */
+h1,
+h2,
+p.otra {
+  color: blue;
+}
+
+/* Mismo elemento, varios selectores */
+section.clase {
+  border: 1px solid black;
+}
+
+/* Descendientes */
+section .clase {
+  border: 1px solid red;
+}
+
+section p {
+  font-family: sans-serif;
+}
+
+section article p {
+  text-shadow: 2px 2px 3px blue;
+}
+
+/* Hijos (descendientes directos) */
+section > p {
+  text-decoration: underline;
+}
+
+/* Hermanos adyacentes */
+div + p {
+  font-size: 1.2rem;
+}
+
+:checked + label {
+  text-decoration: line-through;
+}
+
+/* Hemanos no consecutivos */
+div ~ p {
+  font-weight: bold;
+}

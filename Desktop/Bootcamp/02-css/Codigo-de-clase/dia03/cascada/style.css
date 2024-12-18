@@ -1,0 +1,49 @@
+/* Importancia */
+
+/* Especificidad */
+li {
+  /* 0, 0, 1 */
+  color: blue;
+  text-decoration: underline !important;
+}
+
+ol li {
+  /* 0, 0, 2 */
+  color: aqua;
+}
+
+li.clase {
+  /* 0, 1, 1 */
+  color: blueviolet;
+
+  text-decoration: overline;
+
+  font-size: 1.2rem;
+}
+
+.menu li {
+  /* 0, 1, 1 */
+  color: black;
+}
+
+/* 0, 2, 0 */
+/* .menu .clase { 
+  color: blueviolet;
+}
+ */
+
+li:first-child {
+  color: magenta;
+}
+
+/* 1, 0, 0 */
+#id {
+  color: red;
+}
+
+.clase:not(#id) {
+  /* 1, 1, 0 */
+  font-family: sans-serif;
+
+  /*   color: azure; */
+}

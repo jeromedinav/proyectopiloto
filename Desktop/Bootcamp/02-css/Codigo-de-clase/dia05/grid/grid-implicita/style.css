@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  color: white;
+  height: 8rem;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  min-height: 50vh;
+  border: 2px solid;
+
+  display: grid;
+
+  /* Grid explícita */
+  /* grid-template-columns: 5rem 100px;
+  grid-template-rows: 5rem 100px; */
+
+  /* Grid implícita */
+  grid-auto-rows: 100px 50px 2rem;
+
+  grid-auto-columns: 150px;
+
+  /* Definir si se crean filas o columnas para los elementos que no quepan */
+  grid-auto-flow: row;
+}
+
+p {
+  border: 1px solid blue;
+
+  /* width: 100px; */
+}

@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  /* margin-bottom: 2rem; */
+  background-color: black;
+  color: white;
+  width: 100%;
+
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  border: 1px solid blue;
+  height: 75vh;
+
+  display: flex;
+
+  /* Direccion del eje principal */
+  flex-direction: row;
+
+  /* Eje secundario */
+  flex-wrap: wrap;
+
+  /* Espacio sobrante en el eje principal*/
+  justify-content: center;
+
+  /* Espacio sobrante eje secundario */
+  /* En la fila/columno */
+  /* Por defecto stretch si no tienen altura */
+
+  align-items: center;
+
+  /* En el contenedor */
+  align-content: space-between;
+
+  /* Espacio minimo entre elementos */
+  gap: 1rem;
+}
+
+main > * {
+  border: 1px solid black;
+  width: 7rem;
+  height: 7rem;
+}
+
+p:nth-child(5) {
+  font-size: 1.5rem;
+  height: 4rem;
+}
+
+section {
+  display: flex;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 8rem;
+  height: 3rem;
+  background-color: gray;
+  color: white;
+  text-decoration: none;
+}
