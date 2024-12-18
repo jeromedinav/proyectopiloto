@@ -1,0 +1,24 @@
+# Ignorar archivos y carpetas no relacionadas con el Bootcamp
+*.docx
+*.log
+*.jpeg
+*.png
+*.webloc
+*.sh
+.Trash/
+.DS_Store
+.vscode/
+.npm/
+.ssh/
+.viminfo
+.zsh*
+Applications/
+Downloads/
+Documents/
+Library/
+Movies/
+Music/
+Pictures/
+Public/
+Telegram/
+WhatsApp/
