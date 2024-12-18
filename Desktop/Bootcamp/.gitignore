@@ -1,4 +1,33 @@
+# Archivos de sistema
+.DS_Store
+.Trash/
+Thumbs.db
+desktop.ini
 
+# Archivos de configuración y caché
+.gitconfig
+.bashrc
+.zsh_history
+.npm/
+.ssh/
+.vscode/
+.idea/
+node_modules/
+
+# Imágenes y archivos temporales
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.webloc
+
+# Otros directorios del sistema
+/Applications/
+/Library/
+/Movies/
+/Music/
+/Pictures/
+/Public/
 # Ignorar archivos de sistema y personales
 .DS_Store
 .Trash/
