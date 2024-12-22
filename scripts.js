@@ -1,3 +1,5 @@
+"use strict"; //Activo el modo "estricto" para evitar errores que pasen desapercibidos. //
+
 let ciudad;
 console.log(ciudad);
 
