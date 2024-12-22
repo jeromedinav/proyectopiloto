@@ -1,7 +1,7 @@
 "use strict"; //Activo el modo "estricto" para evitar errores que pasen desapercibidos. //
 
 let ciudad;
-ciudad: "Madrid";
+ciudad = "Madrid";
 console.log(ciudad);
 
 let nombre = "Pedro";
