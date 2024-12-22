@@ -6,9 +6,3 @@ console.log(ciudad);
 
 const país = España;
 console.log(país);
-
-// Escribe algo en el cuerpo de la página
-document.body.innerHTML += "<h2>Hola, esto lo generó JavaScript</h2>";
-
-const titulo = document.querySelector("h1");
-titulo.innerText = "Título modificado por JavaScript";
