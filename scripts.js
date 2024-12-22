@@ -4,7 +4,7 @@ let ciudad;
 console.log(ciudad);
 
 let nombre = "Madrid";
-console.log(Madrid);
+console.log(nombre);
 
 nombre = "Madrid";
 console.log(ciudad);
