@@ -3,7 +3,7 @@
 let ciudad;
 console.log(ciudad);
 
-let nombre = "Madrid";
+let nombre = "Pedro";
 console.log(nombre);
 
 nombre = "Madrid";
