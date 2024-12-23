@@ -12,3 +12,9 @@ console.log(ciudad);
 
 const país = "España";
 console.log(país);
+
+let libro = {
+  titulo: "Aquí va el tíutlo del libro",
+  autor: "El nombre del autor",
+  año: "El año en el que se publica",
+};
