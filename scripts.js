@@ -22,8 +22,9 @@ console.log("El título del libro es: " + libro.titulo);
 console.log("El autor del libro es: " + libro.autor);
 
 let frutas = ["pera", "uva", "naranja"];
-frutas.push("coco");
-console.log("La primera fruta es: " + frutas[frutas[frutas.length - 1]);
+console.log("La primera fruta es: " + frutas[0]);
 console.log("La cantidad de frutas es: " + frutas.length);
 
-
+frutas.push("coco");
+console.log("La última fruta añadida es: " + frutas[frutas.length - 1]);
+console.log("Ahora la cantidad de fruta es: " + frutas.length);
