@@ -20,3 +20,7 @@ let libro = {
 };
 console.log("El título del libro es: " + libro.titulo);
 console.log("El autor del libro es: " + libro.autor);
+
+let frutas = ["pera", "uva", "naranja"];
+console.log("La primera fruta es: " + frutas[0]);
+console.log("La cantidad de frutas es: " + frutas.)
