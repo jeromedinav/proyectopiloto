@@ -32,3 +32,11 @@ console.log("Ahora la cantidad de fruta es: " + frutas.length);
 frutas.forEach((fruta, index) => {
   console.log(`Fruta ${index + 1}: ${fruta}`);
 });
+
+let nuevaFruta = "uva";
+if (!frutas.includes(nuevaFruta)) {
+  frutas.push(nuevaFruta);
+  console.log(nuevaFruta + " añadida al array.");
+} else {
+  console.log(nuevaFruta + " ya está en el array.");
+}
