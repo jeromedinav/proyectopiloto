@@ -40,3 +40,8 @@ if (!frutas.includes(nuevaFruta)) {
 } else {
   console.log(nuevaFruta + " ya está en el array.");
 }
+
+console.log("Frutas finales: " + frutas.join(", "));
+
+frutas = [...new Set(frutas)];
+console.log("Array sin duplicados: " + frutas);
