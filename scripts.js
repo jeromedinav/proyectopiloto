@@ -18,3 +18,5 @@ let libro = {
   autor: "El nombre del autor",
   año: "El año en el que se publica",
 };
+console.log("El título del libro es: " + libro.titulo);
+console.log("El autor del libro es: " + libro.autor);
