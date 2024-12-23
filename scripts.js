@@ -28,3 +28,7 @@ console.log("La cantidad de frutas es: " + frutas.length);
 frutas.push("coco");
 console.log("La última fruta añadida es: " + frutas[frutas.length - 1]);
 console.log("Ahora la cantidad de fruta es: " + frutas.length);
+
+frutas.forEach((fruta, index) => {
+  console.log(`Fruta ${index + 1}: ${fruta}`);
+});
