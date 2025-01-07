@@ -49,4 +49,6 @@ console.log("Array sin duplicados: " + frutas);
 
 /* Empiezo aquí una serie de ejercicios de práctica para aprender a usar JavaScript. */
 
-console.log("
+console.log(“Hola, soy [nombre], tengo [edad] años y vivo en [ciudad].”);
+
+let nombre = “Pedro”;
