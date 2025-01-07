@@ -45,3 +45,8 @@ console.log("Frutas finales: " + frutas.join(", "));
 
 frutas = [...new Set(frutas)];
 console.log("Array sin duplicados: " + frutas);
+
+
+/* Empiezo aquí una serie de ejercicios de práctica para aprender a usar JavaScript. */
+
+console.log("
