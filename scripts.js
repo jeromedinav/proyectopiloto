@@ -58,7 +58,7 @@ console.log("Hola, soy Jero, tengo 41 años y vivo en España.");
 */
 
 let ciudad1 = "Roma";
-console.log("La ciudad es" ciudad1);
+console.log("La ciudad es " ciudad1);
   /* He declarado una variable llamada "ciudad1", porque antes ya tenía declarada "ciudad" y no quiero que se confundan. 
    y muestra un mensaje en la consola con su valor final */
 
