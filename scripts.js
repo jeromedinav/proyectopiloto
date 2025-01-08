@@ -49,3 +49,15 @@ console.log("Array sin duplicados: " + frutas);
 /* Empiezo aquí una serie de ejercicios de práctica para aprender a usar JavaScript. */
 
 console.log("Hola, soy Jero, tengo 41 años y vivo en España.");
+
+/* Ejercicio 1:
+	•	Crea un programa que:
+	1.	Declare una variable llamada ciudad con el nombre de una ciudad.
+	2.	Imprima un mensaje en la consola con la frase: "La ciudad es <ciudad>".
+	3.	Use un comentario en bloque para explicar qué hace el programa.
+*/
+
+let ciudad1 = "Roma";
+console.log("La ciudad es "ciudad1");
+
+  
