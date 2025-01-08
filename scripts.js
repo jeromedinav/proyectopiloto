@@ -60,4 +60,9 @@ console.log("Hola, soy Jero, tengo 41 años y vivo en España.");
 let ciudad1 = "Roma";
 console.log("La ciudad es "ciudad1");
 
+/* :Ejercicio 2:
+	•	Escribe un programa que declare tres variables: a, b, y c.
+	•	Usa un comentario en línea para explicar el propósito de cada variable.
+	•	Imprime la suma de a y b, y el producto de b y c en la consola. */
+
   
