@@ -70,5 +70,5 @@ console.log("La ciudad es " + ciudad1);
 let a = 2; // Variable que almacena el valor 2.
 let b = 3; // Variable que almacena el valor 3.
 let c = 4; // Variable que almacena el valor 4.
-console.log("Voy a sumar a + b", a + b); // Muestra en la consola la suma de las variables "a" y "b".
-console.log("Voy a multiplicar b * c", b * c); // Muestra en la consola el producto de las variables "b" y "c".
+console.log("Voy a sumar a + b": a + b); // Muestra en la consola la suma de las variables "a" y "b".
+console.log("Voy a multiplicar b * c": b * c); // Muestra en la consola el producto de las variables "b" y "c".
