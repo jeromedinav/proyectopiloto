@@ -58,8 +58,8 @@ console.log("Hola, soy Jero, tengo 41 años y vivo en España.");
 */
 
 let ciudad1 = "Roma";
-console.log("La ciudad es " ciudad1);
-  /* He declarado una variable llamada "ciudad1", porque antes ya tenía declarada "ciudad" y no quiero que se confundan. 
+console.log("La ciudad es " + ciudad1);
+/* He declarado una variable llamada "ciudad1", porque antes ya tenía declarada "ciudad" y no quiero que se confundan. 
    y muestra un mensaje en la consola con su valor final */
 
 /* :Ejercicio 2:
@@ -72,6 +72,3 @@ let b = 3; // Variable que almacena el valor 3.
 let c = 4; // Variable que almacena el valor 4.
 console.log("Voy a sumar a + b", a + b); // Muestra en la consola la suma de las variables "a" y "b".
 console.log("Voy a multiplicar b * c)", b * c); // Muestra en la consola el producto de las variables "b" y "c".
-
-
-
