@@ -59,10 +59,17 @@ console.log("Hola, soy Jero, tengo 41 años y vivo en España.");
 
 let ciudad1 = "Roma";
 console.log("La ciudad es "ciudad1");
+  /* He declarado una variable llamada "ciudad1", porque antes ya tenía declarada "ciudad" y no quiero que se confundan. 
+   y muestra un mensaje en la consola con su valor final */
 
 /* :Ejercicio 2:
 	•	Escribe un programa que declare tres variables: a, b, y c.
 	•	Usa un comentario en línea para explicar el propósito de cada variable.
 	•	Imprime la suma de a y b, y el producto de b y c en la consola. */
 
-  
+Let a = 2; // Variable que almacena el valor 2.
+Let b = 3; // Variable que almacena el valor 3.
+Let c = 4; // Variable que almacena el valor 4.
+console.log(a + b); // Muestra en la consola la suma de las variables "a" y "b".
+console.log(b * c); // Muestra en la consola el producto de las variables "b" y "c".
+
